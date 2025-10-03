@@ -13,4 +13,4 @@ def test_divide():
     assert divide(10,5) == 2
 
 def test_divide2():
-    assert divide(10,0) == 0
+    assert divide(10,0) == "you cannot divide by 0"
